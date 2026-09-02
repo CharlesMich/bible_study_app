@@ -8,5 +8,11 @@
         "id":2,
         "name": "spirit of lust",
         "subtopic_id": 1
+    },
+    {
+        "id":3,
+        "name": "spirit of complaining",
+        "subtopic_id": 1
     }
+
 ]
