@@ -2,6 +2,6 @@
     {
         "id":1,
         "name": "spirit of fear",
-        "subtopic_id": [1]
+        "subtopic_id": 1
     }
 ]
