@@ -13,6 +13,11 @@
         "id":3,
         "name": "spirit of complaining",
         "subtopic_id": 1
+    },
+    {
+        "id":4,
+        "name": "spirit of sickness",
+        "subtopic_id": 1
     }
 
 ]
