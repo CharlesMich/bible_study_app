@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "verse": "abcdef",
+        "subtopics2_id": [1,2]
+
+    }
+]
