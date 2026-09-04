@@ -18,6 +18,11 @@
         "id":4,
         "name": "spirit of sickness",
         "subtopic_id": 1
+    },
+    {
+        "id":5,
+        "name": "spirit of shyness",
+        "subtopic_id": 1
     }
 
 ]
