@@ -1,28 +1,82 @@
 [
     {
-        "id":1,
+        "id": 1,
         "name": "spirit of fear",
         "subtopic_id": 1
     },
     {
-        "id":2,
+        "id": 2,
         "name": "spirit of lust",
         "subtopic_id": 1
     },
     {
-        "id":3,
+        "id": 3,
         "name": "spirit of complaining",
         "subtopic_id": 1
     },
     {
-        "id":4,
+        "id": 4,
         "name": "spirit of sickness",
         "subtopic_id": 1
     },
     {
-        "id":5,
+        "id": 5,
         "name": "spirit of shyness",
         "subtopic_id": 1
+    },
+    {
+        "id": 6,
+        "name": "spirit of worry",
+        "subtopic_id": 1
+    },
+    {
+        "id": 7,
+        "name": "spirit of anxiety",
+        "subtopic_id": 1
+    },
+    {
+        "id": 8,
+        "name": "spirit of sorrow",
+        "subtopic_id": 1
+    },
+    {
+        "id": 9,
+        "name": "spirit of death",
+        "subtopic_id": 1
+    },
+    {
+        "id": 10,
+        "name": "spirit of suicide",
+        "subtopic_id": 1
+    },
+    {
+        "id": 11,
+        "name": "spirit of anger",
+        "subtopic_id": 1
+    },
+    {
+        "id": 12,
+        "name": "spirit of hatred",
+        "subtopic_id": 1
+    },
+    {
+        "id": 13,
+        "name": "spirit of revenge",
+        "subtopic_id": 1
+    },
+    {
+        "id": 14,
+        "name": "spirit of bitterness",
+        "subtopic_id": 1
+    },
+    {
+        "id": 15,
+        "name": "spirit of resentment",
+        "subtopic_id": 1
+    },
+    {
+        "id": 16,
+        "name": "spirit of unforgiveness",
+        "subtopic_id": 1
     }
-
 ]
