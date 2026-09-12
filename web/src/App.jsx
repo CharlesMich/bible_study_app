@@ -7,6 +7,7 @@ import {
 
 import Topics from "./components/Topics";
 import Subtopics from "./components/Subtopics";
+import Subtopics2 from "./components/Subtopics2";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         <Route
           path="/topics/:topicId/subtopics"
           element={<Subtopics />}
+        />
+
+        <Route
+          path="/topics/:topicId/subtopics/:subtopicId"
+          element={<Subtopics2 />}
         />
 
         <Route path="*" element={<Navigate to="/" replace />} />

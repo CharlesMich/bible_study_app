@@ -45,10 +45,16 @@ function Subtopics() {
     loadSubtopics();
   }, [topicId]);
 
-  function openSubtopic(subtopic) {
-    // We will connect this to the second subtopics page next.
-    console.log("Selected subtopic:", subtopic);
-  }
+function openSubtopic(subtopic) {
+  navigate(
+    `/topics/${topicId}/subtopics/${subtopic.id}`,
+    {
+      state: {
+        subtopicName: subtopic.subtopic,
+      },
+    },
+  );
+}
 
   return (
     <main className="min-h-screen bg-gray-100 px-4 py-8">
