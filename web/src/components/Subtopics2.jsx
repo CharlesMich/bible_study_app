@@ -13,7 +13,7 @@ function Subtopics2() {
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
 
-  const { subtopicId } = useParams();
+  const { topicId, subtopicId } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -29,7 +29,9 @@ function Subtopics2() {
         const response = await fetch(SUBTOPICS2_URL);
 
         if (!response.ok) {
-          throw new Error("Unable to load additional subtopics.");
+          throw new Error(
+            "Unable to load additional subtopics.",
+          );
         }
 
         const data = await response.json();
@@ -55,8 +57,14 @@ function Subtopics2() {
   }, [subtopicId]);
 
   function openSubtopics2Item(item) {
-    // We will connect this to the Verses page next.
-    console.log("Selected additional subtopic:", item);
+    navigate(
+      `/topics/${topicId}/subtopics/${subtopicId}/${item.id}/verses`,
+      {
+        state: {
+          subtopics2Name: item.name,
+        },
+      },
+    );
   }
 
   return (
@@ -115,7 +123,9 @@ function Subtopics2() {
                 >
                   <button
                     type="button"
-                    onClick={() => openSubtopics2Item(item)}
+                    onClick={() =>
+                      openSubtopics2Item(item)
+                    }
                     className="flex w-full items-center justify-between px-6 py-4 text-left transition hover:bg-blue-50"
                   >
                     <span className="text-lg font-medium text-gray-900">
