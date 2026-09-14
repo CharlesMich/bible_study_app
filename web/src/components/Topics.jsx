@@ -43,8 +43,23 @@ function Topics() {
   return (
     <main className="min-h-screen bg-gray-100 px-4 py-8">
       <section className="mx-auto max-w-3xl overflow-hidden rounded-xl bg-white shadow-md">
+
         <header className="bg-blue-700 px-6 py-5">
-          <h1 className="text-3xl font-bold text-white">Topics</h1>
+          <div className="flex items-center gap-4">
+
+            <button
+              type="button"
+              onClick={() => navigate("/")}
+              className="rounded-lg px-3 py-2 text-lg font-medium text-white transition hover:bg-blue-600"
+            >
+              ‹ Back
+            </button>
+
+            <h1 className="text-3xl font-bold text-white">
+              Topics
+            </h1>
+
+          </div>
         </header>
 
         {isLoading && (
@@ -83,12 +98,15 @@ function Topics() {
                     {topic.topic}
                   </span>
 
-                  <span className="text-2xl text-gray-400">›</span>
+                  <span className="text-2xl text-gray-400">
+                    ›
+                  </span>
                 </button>
               </li>
             ))}
           </ul>
         )}
+
       </section>
     </main>
   );

@@ -1,10 +1,6 @@
-import {
-  BrowserRouter,
-  Navigate,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Home from "./components/Home";
 import Topics from "./components/Topics";
 import Subtopics from "./components/Subtopics";
 import Subtopics2 from "./components/Subtopics2";
@@ -14,7 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Topics />} />
+        <Route path="/" element={<Home />} />
+
+        <Route path="/topics" element={<Topics />} />
 
         <Route
           path="/topics/:topicId/subtopics"
@@ -30,8 +28,6 @@ function App() {
           path="/topics/:topicId/subtopics/:subtopicId/:subtopics2Id/verses"
           element={<Verses />}
         />
-
-        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );
