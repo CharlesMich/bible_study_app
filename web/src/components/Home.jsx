@@ -12,12 +12,12 @@ function Home() {
     {
       name: "NRSVCE",
       type: "external",
-      url: "YOUR_NRSVCE_URL",
+      url: "https://www.biblegateway.com/versions/New-Revised-Standard-Version-Catholic-Edition-NRSVCE-Bible/",
     },
     {
       name: "DRA",
       type: "external",
-      url: "YOUR_DRA_URL",
+      url: "https://www.biblegateway.com/versions/Douay-Rheims-1899-American-Edition-DRA-Bible/",
     },
     {
       name: "CPDV",
@@ -27,7 +27,12 @@ function Home() {
     {
       name: "Catechism",
       type: "external",
-      url: "YOUR_CATECHISM_URL",
+      url: "https://www.vatican.va/archive/ENG0015/_INDEX.HTM",
+    },
+    {
+      name: "Catechism Search",
+      type: "external",
+      url: "https://scborromeo2.org/catechism-of-the-catholic-church",
     },
   ];
 

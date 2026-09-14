@@ -83,5 +83,15 @@
         "id": 17,
         "name": "Satan is an angel",
         "subtopic_id": 3
+    },
+    {
+        "id": 18,
+        "name": "Satan was created by God",
+        "subtopic_id": 3
+    },
+    {
+        "id": 19,
+        "name": "Satan was created good",
+        "subtopic_id": 3
     }
 ]
