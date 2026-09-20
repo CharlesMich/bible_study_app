@@ -9,4 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/bible_study_app/",
 });
