@@ -8,7 +8,7 @@ import Verses from "./components/Verses";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bible_study_app">
       <Routes>
         <Route path="/" element={<Home />} />
 
