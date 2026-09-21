@@ -34,6 +34,16 @@ function Home() {
       type: "external",
       url: "https://scborromeo2.org/catechism-of-the-catholic-church",
     },
+    {
+      name: "Book Store",
+      type: "external",
+      url: "https://giftedbookstore.com",
+    },
+    {
+      name: "Author central",
+      type: "external",
+      url: "https://www.amazon.com/stores/Charles-Michael/author/B07SMB94PD?ref=ap_rdr&shoppingPortalEnabled=true&ccs_id=2c7436cb-fa0b-4d4d-a9c1-85b5152d75c6",
+    },
   ];
 
   function handleClick(item) {
