@@ -8,6 +8,7 @@ function Topics() {
   const [topics, setTopics] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState("");
+  const [sortAscending, setSortAscending] = useState(true);
 
   const navigate = useNavigate();
 
@@ -40,24 +41,40 @@ function Topics() {
     });
   }
 
+  const sortedTopics = [...topics].sort((a, b) => {
+    return sortAscending
+      ? a.topic.localeCompare(b.topic)
+      : b.topic.localeCompare(a.topic);
+  });
+
   return (
     <main className="min-h-screen bg-gray-100 px-4 py-8">
       <section className="mx-auto max-w-3xl overflow-hidden rounded-xl bg-white shadow-md">
 
         <header className="bg-blue-700 px-6 py-5">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between">
+
+            <div className="flex items-center gap-4">
+              <button
+                type="button"
+                onClick={() => navigate("/")}
+                className="rounded-lg px-3 py-2 text-lg font-medium text-white transition hover:bg-blue-600"
+              >
+                ‹ Back
+              </button>
+
+              <h1 className="text-3xl font-bold text-white">
+                Topics
+              </h1>
+            </div>
 
             <button
               type="button"
-              onClick={() => navigate("/")}
-              className="rounded-lg px-3 py-2 text-lg font-medium text-white transition hover:bg-blue-600"
+              onClick={() => setSortAscending(!sortAscending)}
+              className="rounded-lg bg-blue-600 px-4 py-2 font-medium text-white transition hover:bg-blue-500"
             >
-              ‹ Back
+              {sortAscending ? "A → Z" : "Z → A"}
             </button>
-
-            <h1 className="text-3xl font-bold text-white">
-              Topics
-            </h1>
 
           </div>
         </header>
@@ -82,7 +99,7 @@ function Topics() {
 
         {!isLoading && !errorMessage && topics.length > 0 && (
           <ul>
-            {topics.map((topic, index) => (
+            {sortedTopics.map((topic, index) => (
               <li
                 key={topic.id}
                 className={`border-b border-gray-200 last:border-b-0 ${
