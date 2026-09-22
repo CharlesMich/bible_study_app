@@ -128,5 +128,31 @@
         "id": 26,
         "name": "Pray for deliverance",
         "subtopic_id": 5
+    },
+    {
+        "id": 27,
+        "name": "Holy Spirit casts out demons",
+        "subtopic_id": 5
+    },
+    {
+        "id": 28,
+        "name": "Holy Spirit reveals/ exposes hidden demons",
+        "subtopic_id": 5
+    },
+    {
+        "id": 29,
+        "name": "Holy Spirit helps in discerning the demons",
+        "subtopic_id": 5
+    },
+    {
+        "id": 30,
+        "name": "Holy Spirit fills the person after deliverance",
+        "subtopic_id": 5
+    },
+    {
+        "id": 31,
+        "name": "Holy Spirit sanctifies a person from uncleanness of demons",
+        "subtopic_id": 5
     }
+
 ]
