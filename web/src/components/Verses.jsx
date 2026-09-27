@@ -105,9 +105,20 @@ function Verses() {
                       : "bg-gray-100"
                   }`}
                 >
-                  <p className="leading-7 text-gray-800">
-                    {verse.verse}
-                  </p>
+                  {/^https?:\/\//i.test(verse.verse) ? (
+  <a
+    href={verse.verse}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="leading-7 text-blue-700 underline hover:text-blue-900"
+  >
+    Read the passage on Bible Gateway ↗
+  </a>
+) : (
+  <p className="leading-7 text-gray-800">
+    {verse.verse}
+  </p>
+)}
                 </article>
               ))}
             </div>
