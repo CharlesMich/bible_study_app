@@ -26,6 +26,17 @@
     {
       "id": 7,
       "topic": "Healing"
+    },
+    {
+      "id": 8,
+      "topic": "Inner Healing"
+    },
+    {
+      "id": 9,
+      "topic": "Confession"
+    },
+    {
+      "id": 10,
+      "topic": "Ten Commandments"
     }
-
   ]
