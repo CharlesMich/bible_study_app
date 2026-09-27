@@ -158,6 +158,11 @@
         "id": 32,
         "name": "Holy Spirit helps us in deliverance",
         "subtopic_id": 7
+    },
+    {
+        "id": 33,
+        "name": "David and Saul",
+        "subtopic_id": 16
     }
 
 ]
