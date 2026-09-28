@@ -82,6 +82,12 @@
         "verse": "https://www.biblegateway.com/passage/?search=1%20samuel%2016%3A14-23&version=NRSVCE",
         "subtopics2_id": [33]
 
+    },
+    {
+        "id": 15,
+         "verse": "strongman of pride,\nstrongman of gluttony,\nstrongman of anger,\nstrongman of greed,\nstrongman of lust,\nstrongman of sloth,\nstrongman of envy,\nstrongman of sickness,\nstrongman of fear,\nstrongman of poverty,\nstrongman of worldliness,\nstrongman of complaining",
+        "subtopics2_id": [37]
+
     }
 
 ]
