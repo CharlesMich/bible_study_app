@@ -90,7 +90,11 @@
 
 },
 { "id": 16,
-      "subtopic": "Deliverance passages",
+      "subtopic": "Deliverance Passages",
+      "topic_id": 2
+},
+{ "id": 17,
+      "subtopic": "Deliverance Prayers",
       "topic_id": 2
 }
 ]
