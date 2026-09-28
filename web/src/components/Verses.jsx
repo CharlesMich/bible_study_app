@@ -115,7 +115,7 @@ function Verses() {
     Read the passage on Bible Gateway ↗
   </a>
 ) : (
-  <p className="leading-7 text-gray-800">
+  <p className="whitespace-pre-line leading-7 text-gray-800">
     {verse.verse}
   </p>
 )}
