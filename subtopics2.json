@@ -168,6 +168,26 @@
         "id": 37,
         "name": "Strongman binding Prayer",
         "subtopic_id": 17
+    },
+    {
+        "id": 38,
+        "name": "Holy Spirit is God",
+        "subtopic_id": 18
+    },
+    {
+        "id": 39,
+        "name": "Third person of the Trinity",
+        "subtopic_id": 18
+    },
+    {
+        "id": 40,
+        "name": "Holy Spirit is spirit of God",
+        "subtopic_id": 18
+    },
+    {
+        "id": 41,
+        "name": "Holy Spirit is spirit of Christ",
+        "subtopic_id": 18
     }
 
 ]
