@@ -92,7 +92,7 @@
     {
         "id": 16,
          "verse": "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, (Matt 28:19)",
-        "subtopics2_id": [38]
+        "subtopics2_id": [38, 39]
 
     },
     {
@@ -112,6 +112,19 @@
          "verse": "the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom. And all of us, with unveiled faces, seeing the glory of the Lord as though reflected in a mirror, are being transformed into the same image from one degree of glory to another; for this comes from the Lord, the Spirit. (2 Cor 3:17-18)",
         "subtopics2_id": [38]
 
+    },
+    {
+        "id": 20,
+         "verse": "I will put my spirit within you, and make you follow my statutes and be careful to observe my ordinances.. (Eze 36:27)",
+        "subtopics2_id": [40]
+
+    },
+    {
+        "id": 21,
+         "verse": " But you are not in the flesh; you are in the Spirit,[a] since the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to him.. (Rom 8:9)",
+        "subtopics2_id": [41]
+
     }
+
 
 ]
