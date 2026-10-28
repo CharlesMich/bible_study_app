@@ -193,6 +193,16 @@
         "id": 42,
         "name": "God is perfect",
         "subtopic_id": 19
+    },
+    {
+        "id": 43,
+        "name": "God is good",
+        "subtopic_id": 19
+    },
+    {
+        "id": 44,
+        "name": "God is blessed in himself",
+        "subtopic_id": 19
     }
 
 ]
