@@ -108,5 +108,13 @@
 { "id": 20,
       "subtopic": "Why did God create us",
       "topic_id": 12
+},
+{ "id": 21,
+      "subtopic": "God's love",
+      "topic_id": 6
+},
+{ "id": 22,
+      "subtopic": "Consequences of Sin",
+      "topic_id": 13
 }
 ]
